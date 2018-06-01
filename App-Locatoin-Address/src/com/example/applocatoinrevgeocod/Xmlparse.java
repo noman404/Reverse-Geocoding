@@ -20,7 +20,7 @@ public class Xmlparse {
 
 	void execute(String lat, String lon) {
 		try {
-
+                        //http://maps.googleapis.com/maps/api/geocode/json?latlng=3.2451992,101.6966872&sensor=true
 			URLConnection conn = new URL(
 					"http://maps.googleapis.com/maps/api/geocode/xml?latlng="
 							+ lat + "," + lon + "&sensor=true")
